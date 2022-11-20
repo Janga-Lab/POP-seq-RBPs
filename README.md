@@ -1,5 +1,5 @@
 # predict_RBPs
-predict_RBPs is a framework for predicting RNA-binding protein (RBPs)on Protein Occupancy Profile-Sequencing (POP-seq) data.  
+predict_RBPs is a framework for predicting RNA-binding protein (RBPs) on Protein Occupancy Profile-Sequencing (POP-seq) data, where POP-seq is methedology for capturing nearly all RBP-RNA interactions, regardless of their identities and it doesn’t require crosslinking.  
 
 # The following softwares and modules should be installed before using predict_RBP
 
@@ -28,4 +28,4 @@ In order to run  predict_RBP, the user has to do the following:
 python main.py 
 
 # Note:
-- The default Machine Learning model used in predict_RPBs framework is the Random Forest (RF) with RNA sequence embedding.
+The default Machine Learning model used in predict_RPBs framework is the Random Forest (RF) with RNA sequence embedding.

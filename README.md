@@ -1,5 +1,5 @@
 # predict_RBPs
-predict_RBPs is a framework for predicting RNA-binding protein (RBPs) on Protein Occupancy Profile-Sequencing (POP-seq) data, where POP-seq is methedology for capturing nearly all RBP-RNA interactions, regardless of their identities and it doesn’t require crosslinking.  
+predict_RBPs is a framework for predicting RNA-binding protein (RBPs) on Protein Occupancy Profile-Sequencing (POP-seq) data, where POP-seq is protocol for capturing nearly all RBP-RNA interactions, regardless of their identities and it doesn’t require crosslinking.  
 
 # The following softwares and modules should be installed before using predict_RBP
 

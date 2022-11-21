@@ -46,7 +46,7 @@ from sklearn.metrics import roc_auc_score # for printing AUC
 from sklearn.metrics import confusion_matrix
 from sklearn.utils import shuffle
 
-df=df=pd.read_csv('multi_class_popseq_k562_80_balanced.csv')
+df=df=pd.read_csv('multi_class_popseq_k562_20_balanced.csv')
 #df=dataset
 df['chr']=df['chr'].astype('category')
 df['chr'] = df['chr'].cat.codes

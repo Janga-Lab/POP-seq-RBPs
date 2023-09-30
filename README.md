@@ -1,7 +1,7 @@
-# predict_RBPs
-predict_RBPs is a framework for predicting RNA-binding protein (RBPs) on Protein Occupancy Profile-Sequencing (POP-seq) data, where POP-seq is protocol for capturing nearly all RBP-RNA interactions, regardless of their identities and it doesn’t require crosslinking.  
+# POP-seq-RBPs
+POP-seq-RBPs is a machine framework for predicting RNA-binding protein (RBPs) whose protein RNA interaction profiles captured by Protein Occupancy Profile-Sequencing (POP-seq) data, where POP-seq is protocol for capturing nearly all RBP-RNA interactions, regardless of their identities and it doesn’t require crosslinking.  
 
-# The following softwares and modules should be installed before using predict_RBP
+# The following softwares and modules should be installed before using POP-seq-RBPs
 
 python 3.6.10
 
@@ -17,7 +17,7 @@ keras 2.3.1 (using Tensorflow backend)
 
 # Running  predict_RBP:
 
-In order to run  predict_RBP, the user has to do the following:
+In order to run  POP-seq-RBPs, the user has to do the following:
 
 1- Ensure that Encode data file that that identifies the RBPs on the CLIP-seq data a specific cell line is in the same path where  main.py file exists.
 
@@ -31,4 +31,4 @@ In order to run  predict_RBP, the user has to do the following:
 python main.py 
 
 # Note:
-The default Machine Learning model used in predict_RPBs framework is the Random Forest (RF) with RNA sequence embedding using Word2Vec technique.
+The default Machine Learning model used in POP-seq-RBPs framework is the Random Forest (RF) with RNA sequence embedding using Word2Vec technique.

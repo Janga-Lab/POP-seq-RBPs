@@ -23,7 +23,7 @@ In order to run  predict_RBP, the user has to do the following:
 
 2- Ensure that POP-seq data file for the same cell line on which the RBPs will be predicted/identified  is in the same path where  main.py file exists.
 
-3- Rru generate_bench_mark.py to generate the benchmark dataset for POP-seq data on which popseq data is labeled by RBPs based on the intersection of genomic locations on CLIP-seq and POP-seq data
+3- Rrn generate_bench_mark.py to generate the benchmark dataset for POP-seq data on which popseq data is labeled by RBPs based on the intersection of genomic locations on CLIP-seq and POP-seq data
 
 
 4- Run the following python command:
@@ -31,4 +31,4 @@ In order to run  predict_RBP, the user has to do the following:
 python main.py 
 
 # Note:
-The default Machine Learning model used in predict_RPBs framework is the Random Forest (RF) with RNA sequence embedding.
+The default Machine Learning model used in predict_RPBs framework is the Random Forest (RF) with RNA sequence embedding using Word2Vec technique.
